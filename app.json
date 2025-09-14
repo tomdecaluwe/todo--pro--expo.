@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Pro To-Do",
+    "slug": "todo-pro-expo",
+    "scheme": "todopro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d0d0d"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0d0d0d"
+      },
+      "permissions": [
+        "NOTIFICATIONS"
+      ],
+      "useNextNotificationsApi": true,
+      "package": "com.tom.todo.pro"
+    }
+  }
+}
