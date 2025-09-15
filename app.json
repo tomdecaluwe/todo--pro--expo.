@@ -27,6 +27,11 @@
       ],
       "useNextNotificationsApi": true,
       "package": "com.tom.todo.pro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "167cfa6b-0550-4e27-afc1-099e05eec9f3"
+      }
     }
   }
 }
